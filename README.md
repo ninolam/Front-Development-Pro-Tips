@@ -1,1 +1,4 @@
-# Pro-tips
+
+### oye:
+* [x] javascript
+* [] javascript
