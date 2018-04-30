@@ -1,8 +1,8 @@
-## Documentation Bem
+## Documentation BEM
 
 * => __Block__
 * => __Element__
-* => __Element__
+* => __Modifier__
 
 
 
