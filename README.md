@@ -2,7 +2,7 @@
 
 * => __Block__
 * => __Element__
-* => __Modifier __
+* => __Element__
 
 
 
