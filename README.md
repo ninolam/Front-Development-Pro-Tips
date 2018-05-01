@@ -1,4 +1,4 @@
-## Documentation BEM
+## Documentation BEM / Unités / SCSS
 
 * => __Block__
 * => __Element__
