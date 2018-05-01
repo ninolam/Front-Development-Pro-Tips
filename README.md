@@ -219,6 +219,7 @@ body {
 * #### Nesting
 
 Le Nesting permet de respecter la hiérarchie du code html
+
 __=> SCSS__
 ```scss
 nav {
@@ -257,7 +258,7 @@ nav a {
 }
 ```
 
-* #### Import
+* #### Imports
 
 
 __=> SCSS__
@@ -284,9 +285,7 @@ body {
 }
 ```
 
-* #### Mixins
-
-*  ### Les Mixins
+*  ### Mixins
 
 
  __=> CSS__
