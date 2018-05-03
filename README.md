@@ -193,7 +193,7 @@ zone > section {
 ```
 Ceci définit la hauteur à 80% de la hauteur de la fenêtre, et la largeur à 80% de la largeur de la fenêtre.
 
-<a id="scss">Scss</a>
+# SCSS <a id="scss"></a>
 
 * #### Variables
 
