@@ -1,9 +1,9 @@
-## Documentation BEM / Unités / [SCSS](#scss) 
+## Documentation BEM / Unités / [SCSS](#scss) 8-)
 
 * => __Block__
 * => __Element__
 * => __Modifier__
-😇
+
 
 
  BEM apporte une convention de nommage des classes CSS.
