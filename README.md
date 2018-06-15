@@ -8,9 +8,9 @@
   + sous élément 1
   + sous élément 1
 * ### Javascript
-   + sous élément 1
-   + sous élément 1
-   + sous élément 1
+ + sous élément 1
+ + sous élément 1
+ + sous élément 1
 * ### PHP
   + sous élément 1
   + sous élément 1
@@ -348,6 +348,7 @@ button {
 
 
 # Javascript - [Ajax](#ajax) / [POO](#poojs)
+S'entrainer au JS avec le [MOOC](https://github.com/yamsellem/hetic.js/raw/master/MOOC.zip)
 
 #### Conditions / Boucles
 
@@ -414,20 +415,120 @@ var notes = '';
 for (var instruments = 0; instruments < 4; instruments++) {
     notes = notes + '♬';
 }
-notes;
-→ '♬♬♬♬' // Après la boucle, notes a été augmenté de 4
+
+notes → '♬♬♬♬' // Après la boucle, notes a été augmenté de 4
 ```
 
 #### Tableaux / Dictionnaires
 
+###### Les Tableaux
+Déclaration d'un tableau :
+```Javascript
+var beatles = ['paul', 'john', 'george', 'ringo'];
+```
+
+
+Modification d'un tableau :
+```Javascript
+beatles[0] = 'jean';
+beatles[2] = 'ringo';
+
+beatles → ['jean', 'john', 'ringo', 'ringo']
+```
+
+Attributs et méthodes des tableaux
+
+`push(element1, …, elementN)` ajoute des éléments en dernière position<br>
+`unshift(element1, …, elementN)`ajoute des éléments en première position<br>
+`pop() `supprime le dernier élément<br>
+`shift()`supprime le premier élément<br>
+`sort()` trie les éléments (par défaut dans l'ordre croissant)<br>
+`indexOf(element)`recherche la position d'un élément<br>
+`splice(start, deleteCount)`supprime des éléments<br>
+`reverse()` inverse l'ordre des éléments, le premier devenant le dernier, et ainsi de suite<br>
+`join()`crée une chaîne de caractère en concaténant tous les éléments<br>
+`concat(array1, …, arrayN) `concatène des tableaux à la suite
+
+
+###### Les Dictionnaires
+
+Déclaration d'un dictionnaire:
+
+```Javascript
+var paul = {
+  name: 'Paul',
+  age: 72,
+  guitar: true
+};
+```
+
+Modification d'un dictionnaire:
+```Javascript
+paul.guitar = false;
+paul.bass = true;
+
+delete paul.age;
+
+paul;
+→ {name: 'Paul', guitar: false, bass: true}
+```
+
+Dictionnaire dans un tableaux
+```Javascript
+var beatles =[
+  {
+    Name:John,
+    Age:62
+  },
+  {
+    Name:Paul,
+    Age:56
+  },
+  {
+    Name:Ringo,
+    Age:43
+  }
+]
+
+beatles[1].Name => Paul
+beatles[2].Age => 43
+```
+
+
 #### Ajax
+Ajax (Asynchronous JavaScript + XML) n'est pas une technologie en soi, mais un terme désignant une « nouvelle » approche utilisant un ensemble de technologies existantes, dont : HTML ou XHTML, les feuilles de styles CSS, JavaScript, le modèle objet de document (DOM), XML, XSLT, et l'objet XMLHttpRequest. Lorsque ces technologies sont combinées dans le modèle AJAX, les applications Web sont capables de réaliser des mises à jour rapides et incrémentielles de l'interface utilisateur sans devoir recharger la page entière du navigateur.
 
-#### POO
+ Elle repose sur l'objet XMLHttpRequest qui permet de se connecter à un serveur, de lui envoyer des données et d'en recevoir en retour. Elle utilise le protocole HTTP ; le navigateur émet une requête et attend une réponse du serveur. Cette requête est asynchrone, elle ne bloque pas le navigateur, qui peut continuer à interagir avec l'utilisateur, et sera notifié lors du retour du serveur.
+
+ Requete avec fetch:
+ ```JavaScript
+ // Requête fetch GET :
+ fetch('http://www.thebeatles.com/news')
+.then(function(response) {
+    return response.json();
+})
+.then(function(body) {
+});
+
+// Requête fetch POST :
+fetch('http://www.thebeatles.com/subscribe', {
+    method: 'POST',
+    json: JSON.stringify({name:"contact@mail.com"})
+}).then(function(response) {
+    return response.json();
+})
+.then(function(body) {
+});
+ ```
 
 
+ ## Liens utiles
 
-# PHP - [Crud](#crud) / [POO](#poophp)
+ Intégration:
 
-#### Crud
+ JavaScript:
 
-#### POO
+ * [JavaScript30](https://javascript30.com/)
+ * [Article Medium - Bonnes Pratiques](https://medium.freecodecamp.org/7-javascript-methods-that-will-boost-your-skills-in-less-than-8-minutes-4cc4c3dca03f)
+ * [POO](https://www.youtube.com/watch?v=-22uczx3Tb4)
+ * [Débuter avec javascript](https://www.grafikart.fr/formations/debuter-javascript)
