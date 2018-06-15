@@ -1,5 +1,26 @@
-## Documentation BEM / Unités / [SCSS](#scss) 
 
+# Documentation Web Development
+
+
+## Sommaire
+* ### [Intégration](#inte)
+  + sous élément 1
+  + sous élément 1
+  + sous élément 1
+* ### Javascript
+ + sous élément 1
+ + sous élément 1
+ + sous élément 1
+* ### PHP
+  + sous élément 1
+  + sous élément 1
+  + sous élément 1
+
+
+
+## Integration(HTML/CSS) - [Unités](#unite) / [SCSS](#scss)
+
+## BEM
 * => __Block__
 * => __Element__
 * => __Modifier__
@@ -326,5 +347,87 @@ button {
 ```
 
 
+# Javascript - [Ajax](#ajax) / [POO](#poojs)
+
+#### Conditions / Boucles
+
+* ###### Les conditions
+
+ Les Opérateurs
+ ```Javascript
+  ==      // égale
+  ===     // strictement égale
+  >=     // supérieure ou égale
+  <=     // inférieure ou égale
+  !==     // différent de
+  !===     // sctrictement différent de
+  ```
+
+  Opérations conditionnelles
+```Javascript
+   8  >   8; // → false
+   8  >=  8; // → true
+'8' ==  8; // → true
+'8' !=  8; // → false
+'8' === 8; // → false
+'8' !== 8; // → true
+   8  === 8; // → true
+```
+
+   Opérateurs booléens
+```Javascript
+false || true;
+→ true
+false && true;
+→ false
+false || 5;
+→ 5
+false && 5;
+→ false
+```
+
+Les opérateurs booléens ``&&`` et `||` représente `et`
+et `ou.`
+
+##### Boucles
+Les boucles sont des expressions conditionnelles dont l'opération peut-être répétée à plusieurs reprises.
+
+__Boucle While__
+
+L'expression conditionnelle de boucle while effectue une opération tant que sa condition est vérifiée (égale à true).
+
+```Javascript
+var fact = 4;
+var total = 1;
+
+while (fact > 0) {  // tant que fact est supérieure a 0 faire total = ...
+  total = total * fact;
+  fact = fact - 1;
+}
+```
+__Boucle For__
+
+L'expression conditionnelle de boucle for effectue une opération tant que sa condition est vérifiée (égale à true). Cette expression est originale : elle se définit en trois parties facultatives, d'abord une initialisation, ensuite une condition, enfin une opération finale. L'initialisation est effectuée au premier pas de boucle, ensuite, tant que la condition n'est pas vérifiée, la ou les opérations sont évaluées, puis l'opération finale est évaluée à son tour.
+
+```Javascript
+var notes = '';
+for (var instruments = 0; instruments < 4; instruments++) {
+    notes = notes + '♬';
+}
+notes;
+→ '♬♬♬♬' // Après la boucle, notes a été augmenté de 4
+```
+
+#### Tableaux / Dictionnaires
+
+#### Ajax
+
+#### POO
 
 
+
+# PHP - [Crud](#crud) / [POO](#poophp)
+
+#### Crud
+
+#### POO
