@@ -346,7 +346,7 @@ button {
 # Javascript <a id="js"></a>
 S'entrainer au JS avec le [MOOC](https://github.com/yamsellem/hetic.js/raw/master/MOOC.zip)
 
-#### Conditions / Boucles
+#### Conditions / Boucles <a id="bases"></a>
 
 * ###### Les conditions
 
