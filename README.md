@@ -4,23 +4,19 @@
 
 ## Sommaire
 * ### [Intégration](#inte)
-  + sous élément 1
-  + sous élément 1
-  + sous élément 1
-* ### Javascript
- + sous élément 1
- + sous élément 1
- + sous élément 1
-* ### PHP
-  + sous élément 1
-  + sous élément 1
-  + sous élément 1
+  + [BEM](#bem)
+  + [Unités](#unite)
+  + [Pseudos Attributs](#pseudo)
+  + [SCSS](#scss)
+* ### [Javascript](#js)
+   + [Les bases](#bases)
+   + [AJAX](#ajax)
 
 
 
-## Integration(HTML/CSS) - [Unités](#unite) / [SCSS](#scss)
+## Intégration (HTML/CSS) <a id="inte"></a>
 
-## BEM
+## BEM <a id="bem"></a>
 * => __Block__
 * => __Element__
 * => __Modifier__
@@ -88,7 +84,7 @@ __Le code css:__
 
 ```
 
-## Pseudo attribut :: after & :: before
+## Pseudo attribut :: after & :: before <a id="pseudo"></a>
 
 ### Attention
 * Il est obligatoire d'avoir un `content:''` afin que vos after/ before s'affichent.
@@ -131,7 +127,7 @@ __Le code css:__
 
 ```
 
-## Les unités
+## Les unités <a id="unite"></a>
 
 
 ### REM
@@ -347,7 +343,7 @@ button {
 ```
 
 
-# Javascript - [Ajax](#ajax) / [POO](#poojs)
+# Javascript <a id="js"></a>
 S'entrainer au JS avec le [MOOC](https://github.com/yamsellem/hetic.js/raw/master/MOOC.zip)
 
 #### Conditions / Boucles
@@ -477,15 +473,15 @@ Dictionnaire dans un tableaux
 ```Javascript
 var beatles =[
   {
-    Name:John,
+    Name:'John',
     Age:62
   },
   {
-    Name:Paul,
+    Name:'Paul',
     Age:56
   },
   {
-    Name:Ringo,
+    Name:'Ringo',
     Age:43
   }
 ]
@@ -495,7 +491,7 @@ beatles[2].Age => 43
 ```
 
 
-#### Ajax
+#### Ajax <a id="ajax"></a>
 Ajax (Asynchronous JavaScript + XML) n'est pas une technologie en soi, mais un terme désignant une « nouvelle » approche utilisant un ensemble de technologies existantes, dont : HTML ou XHTML, les feuilles de styles CSS, JavaScript, le modèle objet de document (DOM), XML, XSLT, et l'objet XMLHttpRequest. Lorsque ces technologies sont combinées dans le modèle AJAX, les applications Web sont capables de réaliser des mises à jour rapides et incrémentielles de l'interface utilisateur sans devoir recharger la page entière du navigateur.
 
  Elle repose sur l'objet XMLHttpRequest qui permet de se connecter à un serveur, de lui envoyer des données et d'en recevoir en retour. Elle utilise le protocole HTTP ; le navigateur émet une requête et attend une réponse du serveur. Cette requête est asynchrone, elle ne bloque pas le navigateur, qui peut continuer à interagir avec l'utilisateur, et sera notifié lors du retour du serveur.
