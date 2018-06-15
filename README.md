@@ -524,6 +524,12 @@ fetch('http://www.thebeatles.com/subscribe', {
  ## Liens utiles
 
  Intégration:
+ 
+ * [Débuter avec les bases](https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3)
+ * [Filtrer des images avec css 3](https://yesyouweb.com/filtres-images-css3/)
+ * [Css Grid](https://la-cascade.io/css-grid-layout-guide-complet/)
+ * [Guide sur flexbox grid](https://flexbox.io/)
+ * [Tuto Bootstrap](https://openclassrooms.com/courses/prenez-en-main-bootstrap)
 
  JavaScript:
 
