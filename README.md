@@ -362,23 +362,26 @@ S'entrainer au JS avec le [MOOC](https://github.com/yamsellem/hetic.js/raw/maste
 
   Opérations conditionnelles
 ```Javascript
-   8  >   8; // → false
-   8  >=  8; // → true
+ 8  >   8; // → false
+ 8  >=  8; // → true
 '8' ==  8; // → true
 '8' !=  8; // → false
 '8' === 8; // → false
 '8' !== 8; // → true
-   8  === 8; // → true
+ 8  === 8; // → true
 ```
 
    Opérateurs booléens
 ```Javascript
 false || true;
 → true
+
 false && true;
 → false
+
 false || 5;
 → 5
+
 false && 5;
 → false
 ```
@@ -469,7 +472,7 @@ paul;
 → {name: 'Paul', guitar: false, bass: true}
 ```
 
-Dictionnaire dans un tableaux
+Dictionnaire dans un tableau
 ```Javascript
 var beatles =[
   {
